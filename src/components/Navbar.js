@@ -6,7 +6,7 @@ import { useState } from 'react';
 import nav1 from'../assets/img/nav1.svg'
 import nav2 from'../assets/img/nav2.svg'
 import nav3 from'../assets/img/nav3.svg'
-import '../styles/Navbar.css';
+import '../styles/Navbar.css'
 
 function NavigationBar() {
     const [activeLink,setActiveLink]= useState('home')

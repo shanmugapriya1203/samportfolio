@@ -1,25 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@100;200;400&family=Open+Sans:wght@700&display=swap');
-nav.navbar{
+/* Navbar.css */
+:root {
+    --primary1: #854CE6; /* Use the theme primary1 color */
+    --background1: #222A35; /* Use the theme background1 color */
+    --text: #C8CFD8; /* Use the theme text color */
+    --text2: #626970; /* Use the theme text2 color */
+    --text1: #F2F5F7; /* Use the theme text1 color */
+}
+
+nav.navbar {
     padding: 18px 0;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 9999;
-    transition: 0.23 ease-in-out;
+    transition: 0.23s ease-in-out;
 }
-nav.navbar.scrolled{
+
+nav.navbar.scrolled {
     padding: 0px 0;
     background-color: #121212;
 }
-nav.navbar a.navbar-brand{
+
+nav.navbar a.navbar-brand {
     width: 9%;
 }
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
-nav.navbar .navbar-nav a.nav-link.navbar-link:active{
+nav.navbar .navbar-nav a.nav-link.navbar-link:active {
     opacity: 1;
 }
 
-nav.navbar .navbar-nav .nav-link.navbar-link{
+nav.navbar .navbar-nav .nav-link.navbar-link {
     font-weight: 400;
     color: #fff !important;
     letter-spacing: 0 25px;
@@ -27,7 +39,8 @@ nav.navbar .navbar-nav .nav-link.navbar-link{
     font-size: 18px;
     opacity: 0.75;
 }
-span.navbar-text{
+
+span.navbar-text {
     display: flex;
     align-items: center;
 }
@@ -50,6 +63,10 @@ span.navbar-text{
     border: 1px solid rgba(255, 255, 255, 0.5);
     transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+
+
+
 
 .social-icon a::before {
     content: '';
