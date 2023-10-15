@@ -7,7 +7,7 @@ import { blue, grey, pink } from '@mui/material/colors';
 
 export default function Projects() {
   return (
-    <div className="centered">
+    <div className="centered" id='projects'>
       <h1>Crafted with Code</h1>
   
       <div className="card-container">
