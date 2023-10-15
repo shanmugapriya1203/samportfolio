@@ -1,3 +1,8 @@
+import Planner from '../assets/img/planner.png';
+import Fitness from '../assets/img/fitnesszone.png'
+import Camplia from '../assets/img/camplia.png'
+import stack from '../assets/img/stack.png'
+
 const bannerData = {
     toChange: ["FrontEnd Developer", "Backend Developer", "AI enthusiast"],
     name: "Shanmuga Priya",
@@ -125,6 +130,68 @@ const bannerData = {
           name:'Insomania',
           image:'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJMAAACTCAMAAAC9O9snAAAAgVBMVEX///9YSb78/Pzz8/P5+fn29vbw8PBOPbtSQrxWRr1URL1QQLxfUcBMO7vx8Pn7+/1ALLhcTb99c8re3PBINbloW8OnodrKxuhFMbnj4fPCvuT49/ygmdeXkNTSz+uLgs+Deszp6PW7t+I8Jresp9xxZcaPh9DX1Ou0r992bMg4ILaI7EhXAAAGy0lEQVR4nO1cbXeyPAyGCiIICioqKm5zL27P//+BD6BTUvqSpjDPuY/Xx82WiyRN0zTBcZ544okn+gOr8WgSVzDP8/3RHb7veY/jxljFpqJTk7ijothQ8x4gNe/KRvjPilnD6w/5sJqQVkPMa8T1N4x89KNq8v7grJqnGI3wxwMLq1KHuZGQBiFRGwjtjRnC/KgT0+dlQ8iqsmy7Sb2xxSuJZzS0bBH8XhVYCamP2ViPjqEPIV1gawCtifoTORv3ISqd3ub7WbE5fRzKsjysT5titp8rp7NZvbc5FHqbF6f1In5Pt6skqJGstul7vFjvCsWM1mJnSgP4mCbJJHQhwkkSZHl53stGeWMro1JTcpzNKnKFCIM0PhylpCyCK08r5mUmIVXTmua7mXAUo0uKITT/lvK6ayFK8w8JKaKgMJQc5zyRc6pYJdlJZFhESeEoOc4pVZFyw3QhsiuPIimded/xEihJuZNtKTArCikfvZ+8xQqTapDkS8EDjP0UnlKlva2Gkxu+r7ve3dSjeyOTX8sdwg2rFwEpIzvXOyaAXaLl5CbxGz/MaPHh7fuCWa6zqAqTuLMLmry6iTE1KDVLr0E0PfPj8EGemTHVWKp91I1UZ/lhtYd1lu0hnehAiDDiSWG1Zy4mx/maYji5Uch7T1xYzQiUnO8VipM7/eR2P9zaI6VoNhgjrxG88o9DaI8kJueMpOS66YkbihAULZNVxGhSUy5M0Js5G1MoVZxQC69GlHFjtYIiJvz0scEdyQGO1a1zgm9qYCCnSnucl9JEUsa7yhVLvD1VO19u8lDaoqtwNBBTFbhs4GiloDxqsuKEiFbuiHLozpWCIqe010ac3NUOjPYUi52sOudHH2lCScHhCndAVt0cFau0EEBBKZRHznjstKcEDpMFCM/l52K66l6Vh2ERtjAQliqPrLplZkrJDUowgzSMIq+6g9mqqxFmQFvS/YWaapyZWniNKfCbsj2NbE5f2ICujQDuxBKDoprTkULJjWAULDlRQnMq1khK88DQX16RgnOxxKCgSnf/dU6IYkq6VI8MW+A2xR6KM6evJFNllG8okSeWDqZfYB4MpzycxOIMKcC3qQe/IYRRlNCgGDDxWRU4RplWfSWZkhvCVxZygsuuORxNQlmK+4L5F1VxDcAbC7dh+Mfd5bC9LaXXARXvyNx/twBjA1+08KAr+L4+bvWzEfy2xr6c0pzALxJw+hTLCXC6BY5R+rMR3DQV6y3RB9w5AQ8odFCQUyvLNQ0+13AFzjcvsZXaGsDdRcgJuEz20k7ehMl7Xp4256Iolsfdx2K1xeWb1IAOSnhEB3+bv3IJpShYBW4cx1m0SowDOAmn17ZNCB055LQQPjjsQTw3wPiXzKlX/BOceHsaAKb2hE2aWnHSrzvonw62HlEPhH+S+PHhYOzHzRIlNE6I/Q7GBX+gO31cIIifBgaIn4QnYa8TZw4LPs4UcerE40NzgvG48NDJZcYHd1C4cws839Gjfxww5zvOGbxREhMmQJ2D4Z/3n3bRtg58vkCcrOCMfODdBZdX4XbhzbBGjss/cUdRlg3pDbB5Oi4BhbqgpwKbz+QMqhjSG/B5X3kuGvxnyPgXnR/nlTdgbMDdIyhu9Pks63AeCn/fwmfId1apHAUM7qV45c3yYSTF398pizH4W/PNMIIyuufsRMX5EEuvcx+svg/jffxyiA2mc2+uuefhU52E6x0duvUFmnuezhJA1O+ZwbwOo3Nhduxbe516FX3xaKdgRVM7awq+rgdVANW5WXztc4vp1j9hamw7gtp/9qc+Yp1Y9+Q+C/uyc2o9nSAOXUb9hJyCukNsdXQ3EF1aXhlcIKrPRN+tdvMu5x5IiepY8VUWgnrfIrbd+UT1viZ17YIfv1neZtjWRQvPNvMXm8BFVD+ON6YLRgJS63fq8uulzl7cJ7XMafoT9iOMzJskhHXts3Jrbuqyvg1CdYzYAo8LVeOPANL+FlLBjnil7k9ZgvdV8j4gYsGO7HT6kac4Vop+KXK7qcynzXb5NNCpUNlXRu+gZHKvdjzEqYKWpv/OqilXYYr7c5lnAa1P0a57UtnP6RQ7835Ogl/qksL0va7Rfa+9tHgzVMSMRG9d557pZimFb2tKd/TRaFxPM7brwuVm60NUfi993S2wkeU7er0K6XdSm081eLavJAHzyd/DGPetttbc1VKmfDdkOEY1KlkZWvtoQBnd4Plj7IctKneL/q0lmId5+Suhv/u8EfPqJ8q+elN/QefPJMQ/uHpyw6z1/Se/+dvIf9xXs67foBr/YnT9RtWj+LSYtfBoLk888cQ/g/8B2a1ZDwrNgM8AAAAASUVORK5CYII='
         }
+      ],
+    },
+  ];
+  export const cardData = [
+    {
+      image: Planner,
+      title: 'PlannerPlus',
+      description: 'Planner Plus is a robust and intuitive task management system designed to simplify your daily workflow.',
+      githubLink: 'https://github.com/shanmugapriya1203/task_frontend',
+      deployedLink: 'https://darling-figolla-3053de.netlify.app/',
+      tags: [
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "Redux",
+        "NodeMailer",
+      ],
+    },
+    {
+      image: Camplia,
+      title: 'Camplia',
+      description: 'This is a web application designed for listing and searching real estate properties.',
+      githubLink: 'https://github.com/shanmugapriya1203/mern_estate_frontend',
+      deployedLink: 'https://bucolic-raindrop-ff7b4e.netlify.app/',
+      tags: [
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "Redux",
+        "NodeMailer",
+      ],
+    },
+    {
+      image: Fitness,
+      title: 'fitnessZone',
+      description: 'Easiest way to track your fitness Activity with Fitrack,get your accurate data to achieve next level of yours.',
+      githubLink: 'https://github.com/shanmugapriya1203/frontend',
+      deployedLink: 'https://zesty-zuccutto-2022b2.netlify.app/',
+      tags: [
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "Redux",
+        "NodeMailer",
+      ],
+    },
+    {
+      image: stack,
+      title: 'StackOverFlow Clone',
+      description: 'A clone of Stack Overflow, a community-driven Q&A platform for programmers and developers.',
+      githubLink: 'https://github.com/shanmugapriya1203/Stackoverflow-clone',
+      deployedLink: 'https://zingy-starship-983568.netlify.app/',
+      tags: [
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "Redux",
+        "NodeMailer",
       ],
     },
   ];
