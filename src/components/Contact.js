@@ -26,7 +26,7 @@ const Contact = () => {
 const handleSubmit= async(e)=>{
 e.preventDefault()
 setButtonText('Sending...');
-let response= await fetch('http://localhost:5000/contact',{
+let response= await fetch('https://portfolio-kfok.onrender.com/contact',{
     method:'POST',
     headers:{
         "Content-Type":"Application/json;charset=utf-8",
