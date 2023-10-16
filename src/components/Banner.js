@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import header from '../assets/img/header-banner.svg';
+import resumePDF from '../assets/sam.pdf'
 import bannerData from '../data/Constants.js';
 import '../styles/Banner.css';
 
 function Banner() {
-    const { toChange, name ,description } = bannerData;
+    const { toChange, name, description } = bannerData;
     const [activeIndex, setActiveIndex] = useState(0);
     const [typedText, setTypedText] = useState('');
     const [characterIndex, setCharacterIndex] = useState(0);
@@ -15,7 +16,7 @@ function Banner() {
         const interval = setInterval(() => {
             setActiveIndex((prevIndex) => (prevIndex + 1) % toChange.length);
             setCharacterIndex(0);
-        }, 3000); 
+        }, 3000);
 
         return () => clearInterval(interval);
     }, []);
@@ -47,7 +48,17 @@ function Banner() {
                             </span>
                         </h1>
                         <p>{description}</p>
-                        <button onClick={() => console.log('connect')}>My Resume <ArrowRightCircle size={25} /></button>
+                       
+                            <button>My Resume <ArrowRightCircle
+    size={25}
+    onClick={() => {
+        const link = document.createElement('a');
+        link.href = resumePDF;
+        link.download = 'Shanmuga Priya.pdf';
+        link.click();
+    }}
+/></button>
+                      
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={header} alt='Header Img' />

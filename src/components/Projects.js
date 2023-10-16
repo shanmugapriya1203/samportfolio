@@ -22,7 +22,7 @@ export default function Projects() {
             </div>
             <div className="card-actions">
               <div className="card-icons">
-              <a href={data.githubLink} target="_blank" rel="noopener noreferrer" class="github-icon">
+              <a href={data.githubLink} target="_blank" rel="noopener noreferrer" class="github-icon" >
                 <GitHubIcon sx={{ color:grey[200] }} />
               </a>
               <a href={data.deployedLink} target="_blank" rel="noopener noreferrer" class="public-icon">

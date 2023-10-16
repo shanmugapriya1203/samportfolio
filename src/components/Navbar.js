@@ -2,17 +2,15 @@ import React, { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Navbar.css';
 import nav1 from '../assets/img/nav1.svg';
 import nav2 from '../assets/img/nav2.svg';
-import nav3 from '../assets/img/nav3.svg';
+
 
 function NavigationBar() {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     const onScroll = () => {
@@ -30,11 +28,6 @@ function NavigationBar() {
     setActiveLink(value);
   };
 
-  const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme);
-    document.documentElement.classList.toggle('light-theme', newTheme === 'light');
-  };
 
   return (
     <>
@@ -69,25 +62,25 @@ function NavigationBar() {
               >
                 Projects
               </Nav.Link>
+          
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#">
+                <a href="https://github.com/shanmugapriya1203" target='_blank' >
                   <img src={nav1} alt="" />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/in/shanmuga-priya-661935188/" target='_blank' >
                   <img src={nav2} alt="" />
                 </a>
-                <a href="#">
-                  <img src={nav3} alt="" />
-                </a>
+             
               </div>
-              <button className="vvd" onClick={() => console.log('connect')}>
-                <span>Contact</span>
-              </button>
-              <button className="theme-toggle" onClick={toggleTheme}>
-                <FontAwesomeIcon icon={theme === 'light' ? faMoon : faSun} className="theme-icon" />
-              </button>
+              <a href="#contact">
+  <button className="vvd">
+    <span>Contact</span>
+  </button>
+</a>
+
+             
             </span>
           </Navbar.Collapse>
         </Container>

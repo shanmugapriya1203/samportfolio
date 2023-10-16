@@ -8,10 +8,10 @@ const Footer = () => {
       <div className="footer-content">
        
         <div className="social-icons">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/shanmugapriya1203" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/shanmuga-priya-661935188/" target="_blank" rel="noopener noreferrer">
             <i className="fab fa-linkedin"></i>
           </a>
         </div>
