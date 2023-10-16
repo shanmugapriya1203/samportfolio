@@ -34,7 +34,7 @@ function Banner() {
         }
     }, [activeIndex, characterIndex]);
 
-    // Determine whether to use "a" or "an" based on the next character in typedText
+  
     const article = /[aeiou]/i.test(typedText[0]) ? 'an' : 'a';
 
     return (

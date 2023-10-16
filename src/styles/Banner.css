@@ -1,3 +1,5 @@
+/* Your default styles */
+
 .banner {
     margin-top: 0;
     padding: 150px 0 100px 0;
@@ -74,9 +76,16 @@
 
 .banner .name {
     font-weight: 700;
-    font-size: 20px; /* Adjust the font size */
+    font-size: 20px; 
     margin: auto;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.8px;
+}
+
+
+@media screen and (max-width: 508px) {
+    .banner h1 {
+        font-size: 10px;
+    }
 }
