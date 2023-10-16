@@ -51,6 +51,11 @@ else{
         <Row className="align-items-center">
           <Col md={6} xs={12} className="mx-auto">
             <h2>Get in Touch</h2>
+            <div className="contact-info">
+            <p>Email: priyamuthukumar1203@gmail.com</p>
+            <p>Phone: 7094127906</p>
+            <p>Pudukkottai, Tamil Nadu</p>
+          </div>
           </Col>
           <Col md={6} xs={12} className="mx-auto">
             <form onSubmit={handleSubmit}>

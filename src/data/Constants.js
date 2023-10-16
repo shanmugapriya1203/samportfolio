@@ -6,7 +6,7 @@ import stack from '../assets/img/stack.png'
 const bannerData = {
     toChange: ["FrontEnd Developer", "Backend Developer", "AI enthusiast"],
     name: "Shanmuga Priya",
-    description:'Crafting digital experiences through MERN Stack. Embracing creativity, problem-solving, and shaping the digital world of tomorrow.'
+    description:' I specialized in crafting digital experiences through MERN Stack. Embracing creativity, problem-solving, and shaping the digital world of tomorrow.'
   };
 
   export default bannerData;
@@ -137,7 +137,7 @@ const bannerData = {
     {
       image: Planner,
       title: 'PlannerPlus',
-      description: 'Planner Plus is a robust and intuitive task management system designed to simplify your daily workflow.',
+      description: 'This is a robust and intuitive task management system designed to simplify your daily workflow.',
       githubLink: 'https://github.com/shanmugapriya1203/task_frontend',
       deployedLink: 'https://darling-figolla-3053de.netlify.app/',
       tags: [
@@ -166,8 +166,8 @@ const bannerData = {
     },
     {
       image: Fitness,
-      title: 'fitnessZone',
-      description: 'Easiest way to track your fitness Activity with Fitrack,get your accurate data to achieve next level of yours.',
+      title: 'FitnessZone',
+      description: 'Easiest way to track your fitness Activity,get your accurate data to achieve next level of yours.',
       githubLink: 'https://github.com/shanmugapriya1203/frontend',
       deployedLink: 'https://zesty-zuccutto-2022b2.netlify.app/',
       tags: [

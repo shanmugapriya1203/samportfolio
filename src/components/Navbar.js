@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import '../styles/Navbar.css';
 import nav1 from '../assets/img/nav1.svg';
 import nav2 from '../assets/img/nav2.svg';
+import nav3 from '../assets/img/nav3.png'
 
 
 function NavigationBar() {
@@ -72,6 +73,10 @@ function NavigationBar() {
                 <a href="https://www.linkedin.com/in/shanmuga-priya-661935188/" target='_blank' >
                   <img src={nav2} alt="" />
                 </a>
+                <a href="https://leetcode.com/_sam1203/ target='_blank'" >
+                  <img src={nav3} alt="" />
+                </a>
+
              
               </div>
               <a href="#contact">

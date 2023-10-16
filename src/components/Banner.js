@@ -34,6 +34,9 @@ function Banner() {
         }
     }, [activeIndex, characterIndex]);
 
+    // Determine whether to use "a" or "an" based on the next character in typedText
+    const article = /[aeiou]/i.test(typedText[0]) ? 'an' : 'a';
+
     return (
         <section className='banner' id='home'>
             <Container>
@@ -42,23 +45,22 @@ function Banner() {
                         <span className='tagline'>Hey! there</span>
                         <p className="name">This is {name}</p>
                         <h1>
-                            {`I am a `}
+                            {`I am ${article} `}
                             <span className='wrap'>
                                 {typedText}
                             </span>
                         </h1>
                         <p>{description}</p>
-                       
-                            <button>My Resume <ArrowRightCircle
-    size={25}
-    onClick={() => {
-        const link = document.createElement('a');
-        link.href = resumePDF;
-        link.download = 'Shanmuga Priya.pdf';
-        link.click();
-    }}
-/></button>
-                      
+
+                        <button>My Resume <ArrowRightCircle
+                            size={25}
+                            onClick={() => {
+                                const link = document.createElement('a');
+                                link.href = resumePDF;
+                                link.download = 'Shanmuga Priya.pdf';
+                                link.click();
+                            }}
+                        /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={header} alt='Header Img' />
