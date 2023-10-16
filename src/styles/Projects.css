@@ -37,7 +37,7 @@ h1 {
   transition: transform 0.2s, box-shadow 0.2s; 
   border:1px solid black;
   border-radius: 20px;
-  
+  background-color: #222A35;
   position: relative;
 }
 
@@ -112,6 +112,9 @@ h1 {
 
   .card-content h2 {
     font-size: 0.50rem;
+  }
+  .card-content p{
+    font-size: 13px;
   }
 }
 
