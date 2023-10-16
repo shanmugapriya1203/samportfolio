@@ -53,7 +53,6 @@ else{
             <h2>Get in Touch</h2>
             <div className="contact-info">
             <p>Email: priyamuthukumar1203@gmail.com</p>
-            <p>Phone: 7094127906</p>
             <p>Pudukkottai, Tamil Nadu</p>
           </div>
           </Col>
