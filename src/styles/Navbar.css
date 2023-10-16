@@ -8,7 +8,14 @@
     --text1: #F2F5F7; /* Use the theme text1 color */
 }
 
-
+nav.navbar {
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.23s ease-in-out;
+}
 nav.navbar {
     position: fixed;
     top: 0;
@@ -16,7 +23,7 @@ nav.navbar {
     bottom: 0;
     left: 0;
     z-index: 9999;
-    background-color: #121212;
+    background-color: #121212; /* Set the background color as needed */
 }
 
 nav.navbar.scrolled {
