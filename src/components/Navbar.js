@@ -11,7 +11,7 @@ import nav3 from '../assets/img/nav3.png'
 function NavigationBar() {
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
-
+  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     const onScroll = () => {
