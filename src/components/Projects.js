@@ -3,7 +3,7 @@ import { cardData } from '../data/Constants.js'; // Import your data from Consta
 import '../styles/Projects.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import PublicIcon from '@mui/icons-material/Public';
-import { blue, grey, pink } from '@mui/material/colors';
+import {  grey } from '@mui/material/colors';
 
 export default function Projects() {
   return (
