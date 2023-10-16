@@ -16,15 +16,6 @@ nav.navbar {
     z-index: 9999;
     transition: 0.23s ease-in-out;
 }
-nav.navbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 9999;
-    background-color: #121212; /* Set the background color as needed */
-}
 
 nav.navbar.scrolled {
     padding: 0px 0;
