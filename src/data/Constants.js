@@ -145,8 +145,7 @@ const bannerData = {
         "MongoDb",
         "Node Js",
         "Express Js",
-        "Redux",
-        "NodeMailer",
+         "Jwt Token",
       ],
     },
     {
@@ -158,10 +157,10 @@ const bannerData = {
       tags: [
         "React Js",
         "MongoDb",
-        "Node Js",
         "Express Js",
         "Redux",
-        "NodeMailer",
+        
+        " OAuth"
       ],
     },
     {
@@ -175,8 +174,7 @@ const bannerData = {
         "MongoDb",
         "Node Js",
         "Express Js",
-        "Redux",
-        "NodeMailer",
+      
       ],
     },
     {
@@ -191,7 +189,7 @@ const bannerData = {
         "Node Js",
         "Express Js",
         "Redux",
-        "NodeMailer",
+        "Jwt Token"
       ],
     },
   ];

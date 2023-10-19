@@ -52,15 +52,7 @@ function Banner() {
                         </h1>
                         <p>{description}</p>
 
-                        <button>My Resume <ArrowRightCircle
-                            size={25}
-                            onClick={() => {
-                                const link = document.createElement('a');
-                                link.href = resumePDF;
-                                link.download = 'Shanmuga Priya.pdf';
-                                link.click();
-                            }}
-                        /></button>
+                        <button onClick={() => window.open(resumePDF, '_blank')}>My Resume <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={header} alt='Header Img' />
