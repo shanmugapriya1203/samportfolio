@@ -67,16 +67,16 @@ function NavigationBar() {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://github.com/shanmugapriya1203" target='_blank' >
+                <a href=    "https://www.linkedin.com/in/shanmuga-priya-661935188/"  target='_blank' >
                   <img src={nav1} alt="" />
                 </a>
-                <a href="https://www.linkedin.com/in/shanmuga-priya-661935188/" target='_blank' >
+                <a href="https://github.com/shanmugapriya1203"  target='_blank' >
                   <img src={nav2} alt="" />
                 </a>
                 <a href="https://leetcode.com/_sam1203/ " target='_blank'>
                   <img src={nav3} alt="" />
                 </a>
-
+            
              
               </div>
               <a href="#contact">
