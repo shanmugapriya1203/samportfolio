@@ -139,7 +139,7 @@ const bannerData = {
       title: 'PlannerPlus',
       description: 'This is a robust and intuitive task management system designed to simplify your daily workflow.',
       githubLink: 'https://github.com/shanmugapriya1203/task_frontend',
-      deployedLink: 'https://darling-figolla-3053de.netlify.app/',
+      deployedLink: 'https://plannerplus.netlify.app/',
       tags: [
         "React Js",
         "MongoDb",
@@ -153,7 +153,7 @@ const bannerData = {
       title: 'Camplia',
       description: 'This is a web application designed for listing and searching real estate properties.',
       githubLink: 'https://github.com/shanmugapriya1203/mern_estate_frontend',
-      deployedLink: 'https://bucolic-raindrop-ff7b4e.netlify.app/',
+      deployedLink: 'https://realestateapplication.netlify.app/',
       tags: [
         "React Js",
         "MongoDb",
@@ -168,7 +168,7 @@ const bannerData = {
       title: 'FitnessZone',
       description: 'Easiest way to track your fitness Activity,get your accurate data to achieve next level of yours.',
       githubLink: 'https://github.com/shanmugapriya1203/frontend',
-      deployedLink: 'https://zesty-zuccutto-2022b2.netlify.app/',
+      deployedLink: 'https://fitnesszoneinmern.netlify.app/',
       tags: [
         "React Js",
         "MongoDb",
